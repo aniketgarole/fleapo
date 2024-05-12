@@ -379,3 +379,260 @@ body {
     border-radius: 10px;
 }
 
+
+/* work end */
+
+/* review */
+
+
+.review-div {
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.inner-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 409px;
+    height: 83px;
+    border-radius: 22px;
+    background-color: #fff;
+}
+
+.inner-div div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-div div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:start;
+    gap: 5px;
+}
+
+.review-bold-text {
+    font-family: 'inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: rgba(37, 36, 50, 1);
+}
+
+.review-faint-text {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: rgba(137, 135, 161, 1);
+}
+
+/* review end */
+
+
+/* pricing */
+
+.pricing-div {
+    margin-top: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.pricing-container {
+    width: 70%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.pricing-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    gap: 70px;
+}
+
+
+
+
+.left-upper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    gap: 20px;
+    width: 70%;
+
+}
+
+.left-upper p:first-child {
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 60px;
+    line-height:72px;
+    color: 
+    rgba(37, 36, 50, 1);
+}
+
+.left-upper p:last-child {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height:21px;
+    color: rgba(137, 135, 161, 1);
+}
+
+
+.left-lower {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+.left-lower p {
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 34.07px;
+    line-height: 40.88px;
+    color: rgba(37, 36, 50, 1)
+}
+
+.left-lower button {
+    width: 335px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgba(78, 71, 255, 1);
+    border: none;
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1)
+    
+}
+
+
+.pricing-right {
+    width: 60%;
+    /* border: 1px solid blue; */
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+    
+}
+
+
+.right-upper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 0px 20px;
+    gap: 30px;
+    width: 70%;
+
+}
+
+.right-upper p:first-child {
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: rgba(37, 36, 50, 1)
+}
+
+.right-upper p:last-child {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(137, 135, 161, 1)
+}
+
+.right-middle {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0px 0px 0px 20px;
+    gap: 120px;
+
+}
+
+.right-middle > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-middle > div div {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.right-middle > div div img {
+    width: 18px;
+    height: 18px;
+    color: rgba(37, 36, 50, 1);
+}
+
+.right-middle > div div p {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25.2px;
+    color: rgba(37, 36, 50, 1);
+}
+
+.right-lower {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(245, 248, 255, 1);
+    border-radius: 10px;
+    padding: 25px 45px;
+}
+
+.bold {
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    color: rgba(37, 36, 50, 1);
+}
+
+.faint {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 72px;
+    color: rgba(137, 135, 161, 1);
+}
+
+.right-lower div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* pricing end */
