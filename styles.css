@@ -23,6 +23,8 @@ body {
 .thunderbolt-container {
     position: absolute;
     z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
@@ -651,6 +653,7 @@ body {
     width: 100%;
     margin-top: 150px;
     
+    
 }
 
 
@@ -772,3 +775,147 @@ body {
 .question.active .minus {
     display: block;
 }
+
+
+/* question end */
+
+
+.hr {
+    border-top: 2px solid rgb(229, 225, 241);
+    margin-top: 125px;
+    margin-bottom: 125px;
+
+}
+
+
+.spring2 {
+    position: absolute;
+    top: 3890px;
+    right: 50px;
+    mix-blend-mode: color-burn;
+}
+
+.spectrum {
+    position: absolute;
+    top: 4428px;
+    width: 100%;
+    height: 1229px;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    background-image: url("assets/Group\ 27169.svg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.star {
+    position: absolute;
+    top: 4471px;
+    
+    mix-blend-mode: color-burn;
+}
+
+
+/* contact div */
+
+.contact-div {
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.form-container {
+    width: 50%;
+}
+
+
+.form-container form {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    margin-top: 80px;
+    gap: 10px;
+}
+
+form button {
+    width: 100%;
+    height: 62px;
+    background-color: rgba(78, 71, 255, 1);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color:rgba(255, 255, 255, 1);
+    margin-top: 20px;
+}
+
+form input {
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid rgba(214, 221, 237, 1);
+    background-color: rgba(245, 248, 255, 1);
+    padding: 10px 0px 0px 30px
+}
+
+form textarea {
+    width: 100%;
+    height: 222px;
+    border: 1px solid rgba(214, 221, 237, 1);
+    border-radius: 10px;
+    background-color: rgba(245, 248, 255, 1);
+    padding: 10px 0px 0px 30px;
+    resize: none;
+
+}
+
+ 
+
+.form-container > p {
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    color:rgba(37, 36, 50, 1)
+}
+    
+form label {
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: rgba(37, 36, 50, 1);
+    margin-top: 5px;
+}
+
+.form-container input::placeholder {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(137, 135, 161, 1);
+}
+
+.form-container textarea::placeholder {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(137, 135, 161, 1);
+    
+    
+}
+
+
+/* contact div end */
