@@ -33,3 +33,38 @@ answers.forEach(item => {
         question.classList.toggle('active')
     });
 });
+
+
+
+const leftArrow = document.querySelector(".left-arrow")
+const rightArrow = document.querySelector(".right-arrow")
+const corousel = document.querySelector(".corousel")
+let leftCount = 1
+let rightCount = 1
+const leftOffset = 365.5
+const rightOffset = 721
+
+
+leftArrow.addEventListener("click", () => {
+    
+    if (leftCount > 1) {
+        return 
+    }
+
+    
+    corousel.style.transform = `translate(${leftOffset}px) `
+    count++
+
+   
+    
+})
+
+rightArrow.addEventListener("click", () => {
+
+    if (rightCount > 2) {
+        return 
+    }
+
+    corousel.style.transform = `translate(-${rightOffset}px) `
+    
+})
